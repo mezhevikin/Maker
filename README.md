@@ -6,8 +6,8 @@ Init
 
 ```swift
 let titleLabel = UILabel {
-  $0.textColor = .red
-  $0.text = "Hello"
+    $0.textColor = .red
+    $0.text = "Hello"
 }
 ```
 
@@ -15,8 +15,8 @@ Make
 
 ```swift
 let titleLabel = UILabel().make {
-  $0.textColor = .red
-  $0.text = "Hello"
+    $0.textColor = .red
+    $0.text = "Hello"
 }
 ```
 
