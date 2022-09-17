@@ -2,8 +2,6 @@
 
 🍰 A tiny syntactic sugar for Swift initializers. Only 15 lines of codes.
 
-Init
-
 ```swift
 let titleLabel = UILabel {
     $0.textColor = .red
@@ -11,7 +9,7 @@ let titleLabel = UILabel {
 }
 ```
 
-Make
+### Alternative
 
 ```swift
 let titleLabel = UILabel().make {
